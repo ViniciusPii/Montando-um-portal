@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/Js/script.js"></script>
+    <title>Portal de Notícias aaa</title>
+</head>
+
+<body>
+
+    <!-- primeiro topo -->
+    <div class="topo">
+        <div class="topointerno">
+
+            <div class="topoesquerda">
+                <ul>
+                    <li><a href="./" class="ativo">Home</a></li>
+                    <li><a href="./">Quem Somos</a></li>
+                    <li><a href="./">Anuncie Aqui</a></li>
+                    <li><a href="./">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="topodireita">
+                <input type="image" src="assets/imagens/lupa.png" width="26" height="25">
+                <input type="text" name="busca" class="topobusca" placeholder="Buscar...">
+                <a href=""><img src="assets/imagens/youtube.png" width="26" height="26"></a>
+                <a href=""><img src="assets/imagens/Twitter2.png" width="26" height="26"></a>
+                <a href=""><img src="assets/imagens/facebook.png" width="26" height="26"></a>
+                <a href=""><img src="assets/imagens/google_plus.png" width="26" height="26"></a>
+                <a href=""><img src="assets/imagens/rss3.png" width="26" height="26"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- topo verdadeiro do site -->
+    <div class="topo2">
+        <div class="topo2interno">
+
+            <div class="logo">
+                <img src="assets/imagens/logo.jpg" width="230px">
+            </div>
+
+            <div class="banner">
+                <a href="./"><img src="assets/imagens/propaganda.jfif" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- menu do site -->
+    <div class="menu">
+        <div class="menuint">
+            <ul>
+                <li><a href="./" class="ativo">Home</a></li>
+                <li><a href="./">Economia</a></li>
+                <li>
+                    <!-- insere o link -->
+                    <a href="./">Entretenimento</a>
+                    <!-- inserindo a imagem -->
+                    <img src="assets/imagens/setinha2.png" width="10">
+                    <!-- classe do sub menu -->
+                    <div class="submenu">
+                        <!-- link para as opções -->
+                        <a href="./">
+                            <!-- criação de todos sub menus -->
+                            <div class="submenuitem">
+                                Sub Menu 1
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 2
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 3
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 4
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 5
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="./">Esportes</a>
+                    <img src="assets/imagens/setinha2.png" width="10">
+                    <div class="submenu">
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 1
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 2
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 3
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="./">Geral</a></li>
+                <li>
+                    <a href="./">Notícias</a>
+                    <img src="assets/imagens/setinha2.png" width="10">
+                    <div class="submenu">
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 1
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 2
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 3
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">
+                                Sub Menu 4
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="./">Polícia</a></li>
+                <li><a href="./">Vídeos</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ultimas noticias -->
+    <div class="ultimasnoticias">
+        <div class="ultimasnoticiasint">
+            <div class="ultnoticiasarea">
+                <div class="ultnoticiastitulo">
+                    ÚLTIMAS NOTICIAS
+                </div>
+                <div class="ultnoticiasnoticia">
+                    <a href="./">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- conteudo do portal -->
+    <div class="container">
+        <div class="containerint">
+
+            <div class="ladoesquerdo">
+                <!-- parte do slide -->
+                <div class="slideshow" id="slideshow">
+                    <!-- criação das bolinhas de negação -->
+                    <div class="slidebolinhas">
+                        <div class="bolinhas" onclick="mudarSlide(0)">
+                        </div>
+                        <div class="bolinhas" onclick="mudarSlide(1)">
+                        </div>
+                        <div class="bolinhas" onclick="mudarSlide(2)">
+                        </div>
+                        <div class="bolinhas" onclick="mudarSlide(3)">
+                        </div>
+                    </div>
+                    <!-- aqui é a area que muda -->
+                    <div class="slideshowarea">
+                        <a href="./">
+                            <div class="slide" style="background-image: url('assets/imagens/luta.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slidetitulo">
+                                        Lutador da Hadouken em adversário!!! 1
+                                    </div>
+                                    <div class="slidesubtitulo">
+                                        Logo em seguida desafia treinador e o nocauteia!
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="slide" style="background-image: url('assets/imagens/luta.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slidetitulo">
+                                        Lutador da Hadouken em adversário!!! 2
+                                    </div>
+                                    <div class="slidesubtitulo">
+                                        Logo em seguida desafia treinador e o nocauteia!
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="slide" style="background-image: url('assets/imagens/luta.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slidetitulo">
+                                        Lutador da Hadouken em adversário!!! 3
+                                    </div>
+                                    <div class="slidesubtitulo">
+                                        Logo em seguida desafia treinador e o nocauteia!
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./">
+                            <div class="slide" style="background-image: url('assets/imagens/luta.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slidetitulo">
+                                        Lutador da Hadouken em adversário!!! 4
+                                    </div>
+                                    <div class="slidesubtitulo">
+                                        Logo em seguida desafia treinador e o nocauteia!
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- aqui inserimos as noticias abaixo do slide -->
+                <div class="widget">
+                    <div class="widgettit">
+                        NOTÍCIAS
+                    </div>
+                    <div class="widgetconteudo">
+                        <div class="noticiaarea1">
+                            <a href="./">
+                                <div class="notitem big">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/quadrilha.jpg" width="384px" height="222px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="noticiaarea2">
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/wesley.jpg" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/morena.jpg" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/Vint Cerf-um dos pais da web.jpg" width="80px"
+                                            height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/Barack Obama.jpg" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ajeitar o conteudo dentro -->
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widgettit">
+                        ESPORTES
+                    </div>
+                    <div class="widgetconteudo">
+                        <div class="noticiaarea1">
+                            <a href="./">
+                                <div class="notitem big">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/santos.jpg" width="384px" height="222px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="noticiaarea2">
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/jogo.jpg" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/red.jpg" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/cor.jfif" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./">
+                                <div class="notitem">
+                                    <div class="notimg">
+                                        <img src="assets/imagens/sant.jfif" width="80px" height="80px">
+                                    </div>
+                                    <div class="nottit">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="notinf">
+                                        500 comentários
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ajeitar o conteudo dentro -->
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ladodireito">
+                <div class="widget">
+                    <div class="widgettit">
+                        SOCIAL
+                    </div>
+                    <div class="widgetconteudo">
+                        <a href="./"><img src="assets/imagens/rss3.png" width="26"></a>
+                        <a href="./"><img src="assets/imagens/google_plus.png" width="26"></a>
+                        <a href="./"><img src="assets/imagens/facebook.png" width="26"></a>
+                        <a href="./"><img src="assets/imagens/Twitter2.png" width="26"></a>
+                        <a href="./"><img src="assets/imagens/youtube.png" width="26"></a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widgettit">
+                        ÚLTIMAS NOTÍCIAS
+                    </div>
+                    <div class="widgetconteudo">
+                        <div class="noticiaitem">
+                            <a href="./">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iure earum
+                                nihil
+                                reprehenderit laboriosam ea quisquam repudiandae corrupti.
+                            </a>
+                        </div>
+                        <div class="noticiaitem">
+                            <a href="./">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iure earum
+                                nihil
+                                reprehenderit laboriosam ea quisquam repudiandae corrupti.
+                            </a>
+                        </div>
+                        <div class="noticiaitem">
+                            <a href="./">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iure earum
+                                nihil
+                                reprehenderit laboriosam ea quisquam repudiandae corrupti.
+                            </a>
+                        </div>
+                        <div class="noticiaitem">
+                            <a href="./">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iure earum
+                                nihil
+                                reprehenderit laboriosam ea quisquam repudiandae corrupti.
+                            </a>
+                        </div>
+                        <div class="noticiaitem">
+                            <a href="./">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iure earum
+                                nihil
+                                reprehenderit laboriosam ea quisquam repudiandae corrupti.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widgettit">
+                        PUBLICIDADE
+                    </div>
+                    <div class="widgetconteudo">
+                        <div class="conteudopubli">
+                            Perca mais de 30kg em apenas duas semanas!!!
+                        </div>
+                        <a href="./"><img src="assets/imagens/girl.jpg" width="273">
+                        </a>
+                        <div class="leia">
+                            <a href="./">Leia mais...</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widgettit">
+                        ENCONTRE-NOS NO FACEBOOK
+                    </div>
+                    <div class="widgetconteudo">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvnsgamer%2F&tabs&width=273&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="273" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
