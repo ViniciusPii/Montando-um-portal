@@ -38,7 +38,7 @@ function mudarSlide(pos) {
 
 function toggleMenu() {
 
-	var menu = document.getElementById("menu");
+	var menu = document.getElementById("menumob");
 
 	if (menu.style.display == 'none' || menu.style.display == '') {
 		menu.style.display = "block";
